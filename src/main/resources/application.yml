@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/LucasAlvesL/eazybytes-server.git
+          uri: https://github.com/LucasAlvesL/eazybytes-server
           clone-on-start: true
           search-paths: config
         prefix: /config
@@ -17,5 +17,3 @@ eureka:
     fetch-registry: false
   instance:
     hostname: localhost
-  server:
-    enable-self-preservation: false
