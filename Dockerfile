@@ -8,7 +8,7 @@ RUN mvn clean install
 
 FROM amazoncorretto:21
 
-COPY --from=build /app/target/service.main-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY --from=build /app/target/eazybytes-configserver-0.0.1-SNAPSHOT.jar /app/app.jar
 
 WORKDIR /app
 

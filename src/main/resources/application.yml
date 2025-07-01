@@ -2,12 +2,12 @@ server:
   port: 8888
 spring:
   application:
-    name: config-server
+    name: service-main
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/LucasAlvesL/eazybytes-server
+          uri: "https://github.com/LucasAlvesL/eazybytes-server"
           clone-on-start: true
           search-paths: config
         prefix: /config
