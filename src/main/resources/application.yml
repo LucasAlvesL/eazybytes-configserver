@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/LucasAlvesL/eazybytes-server"
+          uri: https://github.com/LucasAlvesL/eazybytes-server
           clone-on-start: true
           search-paths: config
         prefix: /config
